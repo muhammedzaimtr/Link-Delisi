@@ -1,0 +1,171 @@
+/**
+ * Created by PhpStorm.
+ * User: muhammedzaimtr
+ * Date: 17.04.2017
+ * Time: 23:05
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "San Francisco", sans-serif;
+    font-weight: 200;
+    color: #000;
+    letter-spacing: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    min-height: 25px;
+    background-color: #fff;
+    box-shadow: 2px 2px 25px #ccc;
+}
+
+.header-title{
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.container-data{
+    margin: 0;
+    width: 100%;
+    min-height: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bos{
+    padding-top: 15px;
+}
+
+.box{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 25px #ccc;
+}
+
+#paylas{
+    z-index: 999999999999;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+input[type= "text"]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type= "password"]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+label{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+
+input[type= "submit"]{
+    border-radius: 100px;
+    font-family: 'San Francisco', sans-serif;
+    background-image: linear-gradient(279deg, #00e676, #15d477);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.9px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+
+
+
+
+/* pop-up */
+
+
+
+.overlay{
+    display: none; /* Default Hidden */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+}
+.popup{
+    display: none; /* Default Hidden */
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    z-index: 2;
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    padding: 50px;
+    transform: translate(-50%, 0);
+}
+
+
+/* Bored stuff & extras*/
+h1, h2{
+    color: steelblue ;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-bottom: 35px;
+}
+h2{
+    color: dodgerblue ;
+}
+small{
+    color: #444 ;
+    font-size:0.4em;
+    display: block;
+    margin: 0.2rem auto 0;
+}
+.close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: block;
+    color: #666666;
+    font-family: sans-serif;
+}
+.close:hover{
+    cursor: pointer;
+    color: #444444;
+}
