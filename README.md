@@ -15,8 +15,8 @@
 
 
 ##### Kullanıcı Giriş Bilgisi
-Kullanıcı Adı ==> admin
-Şifre         ==> admin 
+1) Kullanıcı Adı ==> admin
+1) Şifre         ==> admin 
 
 
 
