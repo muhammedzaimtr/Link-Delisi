@@ -12,6 +12,14 @@
 7) Hadi Hayırlı Olsun.
 8) Bu kod parçasının gelişimine katkıda bulunmayı unutmazsan sevinirim :) 
 
+
+
+##### Kullanıcı Giriş Bilgisi
+Kullanıcı Adı ==> admin
+Şifre         ==> admin 
+
+
+
 ## Resimler
 ![ANA EKRAN](https://raw.githubusercontent.com/muhammedzaimtr/Link-Delisi/master/linkdelisi1.png)
    
